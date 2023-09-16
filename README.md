@@ -24,24 +24,24 @@
 
 ## Description
 
-## Instalacoes 
--- instalar o prisma 
-$ npm install prisma --save-dev
--- instalar as depedencias do typescrip
-$ npm install typescript ts-node @types/node --save-dev
+## Instalacoes <br></br>
+-- instalar o prisma -- <br></br>
+$ npm install prisma --save-dev <br></br>
+-- instalar as depedencias do typescript -- <br></br>
+$ npm install typescript ts-node @types/node --save-dev <br></br>
 
-## Inicialização 
--- iniciar o prisma
-$ npx prisma init
--- gerar a migrate
-$ npx prisma migrate dev
--- rodar o servidor
-npx ts-node src/index.ts
+## Inicialização <br></br>
+-- iniciar o prisma -- <br></br>
+$ npx prisma init <br></br>
+-- gerar a migrate -- <br></br>
+$ npx prisma migrate dev <br></br>
+-- rodar o servidor -- <br></br>
+npx ts-node src/index.ts <br></br>
 
-## Docker
--- comando para iniciar o servidor do banco de dados no docker
-$ docker-compose up -d
--- comando para verificar se o banco de dados esta executando
-$ docker ps
+## Docker <br></br>
+-- comando para iniciar o servidor do banco de dados no docker -- <br></br>
+$ docker-compose up -d <br></br>
+-- comando para verificar se o banco de dados esta executando -- <br></br>
+$ docker ps <br></br>
 
 Nest is [MIT licensed](LICENSE).
