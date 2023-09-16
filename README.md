@@ -24,50 +24,24 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Instalacoes 
+-- instalar o prisma 
+$ npm install prisma --save-dev
+-- instalar as depedencias do typescrip
+$ npm install typescript ts-node @types/node --save-dev
 
-## Installation
+## Inicialização 
+-- iniciar o prisma
+$ npx prisma init
+-- gerar a migrate
+$ npx prisma migrate dev
+-- rodar o servidor
+npx ts-node src/index.ts
 
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
+## Docker
+-- comando para iniciar o servidor do banco de dados no docker
+$ docker-compose up -d
+-- comando para verificar se o banco de dados esta executando
+$ docker ps
 
 Nest is [MIT licensed](LICENSE).
